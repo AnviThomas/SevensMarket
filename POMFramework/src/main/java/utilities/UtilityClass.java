@@ -23,6 +23,7 @@ public class UtilityClass {
 	     {
 	       datas.add(element.getText());
 	     }
+	     
 	     return datas;
 	  }
 	}

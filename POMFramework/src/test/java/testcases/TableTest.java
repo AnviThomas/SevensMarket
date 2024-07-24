@@ -23,6 +23,7 @@ public class TableTest extends BaseClass{
 			tablepage.clickonTable();
 			String actualtitle="Table with Pagination Example";
 			String expectedtitle=tablepage.getTabletitle();
+			
 			Assert.assertEquals(actualtitle, expectedtitle);
 		}
 		

@@ -31,6 +31,7 @@ public class TablePage {
 
 	public void clickonTable() {
 		WebElement tableelement = driver.findElement(table);
+		
 		tableelement.click();
 	}
 

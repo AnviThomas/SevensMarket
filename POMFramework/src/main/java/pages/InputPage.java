@@ -17,6 +17,7 @@ public class InputPage {
 	public void clickoninputform()
 	{
 		WebElement inputelement=driver.findElement(inputformlink);
+		
 		inputelement.click();
 	}
 	public String getinputformheader()

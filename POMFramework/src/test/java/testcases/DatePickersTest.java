@@ -18,6 +18,7 @@ DatePickers datepicker;
 	@Test
 	public void validateLogoAttribute()
 	{
+		
 		datepicker=new DatePickers(driver);
 		datepicker.clickondatepickers();
 		

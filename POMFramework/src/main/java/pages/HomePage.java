@@ -17,6 +17,7 @@ public class HomePage {
 	
 	public boolean islogoDisplayed()
 	{
+		
 		WebElement logoelement=driver.findElement(logo);
 		return logoelement.isDisplayed();
 	}

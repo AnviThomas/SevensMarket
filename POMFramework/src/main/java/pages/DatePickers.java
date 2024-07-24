@@ -20,6 +20,7 @@ public class DatePickers {
 	public DatePickers(WebDriver driver)
 	{
 		//can be used inside constructor and method but one more code is given
+		
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}

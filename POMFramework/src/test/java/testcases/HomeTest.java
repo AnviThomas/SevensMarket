@@ -15,6 +15,7 @@ public class HomeTest extends BaseClass{
 		
 		homepage=new HomePage(driver);
 		//System.out.println(driver.getTitle());
+		
 	Assert.assertTrue(homepage.islogoDisplayed());
 	}
 }
